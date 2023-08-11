@@ -1,0 +1,13 @@
+{
+  "name": "my-middleware",
+  "vendor": "cxperu07",
+  "version": "0.0.0",
+  "bindings": [
+    {
+      "operation": "api",
+      "path": "/api/my-middleware",
+      "provider": "my-middleware"
+    }
+  ],
+  "$schema": "https://raw.githubusercontent.com/vtex/node-vtex-api/master/gen/manifest.schema"
+}
