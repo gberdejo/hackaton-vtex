@@ -1,9 +1,12 @@
 const mongoose = require("mongoose");
-
-mongoose.connect("mongodb://localhost:27017/mydb", {
-  useNewUrlParser: true,
-  useUnifiedTopology: true,
-});
+// mongosh "mongodb://mongo:UpJH4VIrhzMovI2Yadqz@containers-us-west-210.railway.app:7665"
+mongoose.connect(
+  "mongodb://mongo:UpJH4VIrhzMovI2Yadqz@containers-us-west-210.railway.app:7665",
+  {
+    useNewUrlParser: true,
+    useUnifiedTopology: true,
+  }
+);
 
 const sellerComissions = new mongoose.Schema(
   {
